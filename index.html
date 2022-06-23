@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articulos</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">
+            <img src="./img/logo.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#vehiculo">Ofertas</a>
+            <a href="#modelos">Articulos</a>
+            <a href="#opiniones">opiniones</a>
+            <a href="#contactos">contacto</a>
+        </nav>
+        
+        
+
+        <div class="btns">
+            <div id="acceder-btn">
+                <buttom class="btn">Acceder</buttom>
+                <i class="far fa-user"></i>
+            </div>
+    
+            <buttom class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </buttom>
+        </div>
+        <div class="two columns u-pull-right">
+            <ul>
+                <li class="submenu">
+                    <img src="img/cart.png" id="img-carrito">
+                    <div id="carrito">
+
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    </header>
+
+    <div class="acceder-form-container">
+        <span class="fas fa-times" id="close-acceder-form"></span>
+
+        <form action="">
+            <h3>ingresar usuario</h3>
+            <input type="email" placeholder="correo electronico" class="caja">
+            <input type="password" placeholder="contraseña" class="caja">
+            <p>Olvidaste tu contraseña? <a href="#">Click aqui</a></p>
+            <input type="submit" value="Nuevo usuario" class="btn">
+            <p>inicie seccion con</p>
+            <div class="buttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div>
+            <p>No tengo cuenta <a href="#">Crear una</a></p>
+        </form>
+    </div>
+
+    <section class="inicio" id="inicio">
+        
+        <h1 class="incio-site">Las mejores variedades</h1>
+
+        <img class="incio-site" data-aos="flip-left" data-aos-delay="450" src="img/slider2.jfif" alt="inicio">
+        <br>
+        <a href="#" class="btn incio-site">Ver Productos</a>
+
+    </section>
+    
+<section class="vehiculo" id="vehiculo">
+
+    <h2 class="heading"> Ofertas </h2>
+
+    <div class="swiper mySwiper vehiculo-slider ">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <div class="content">
+                    <h3>producto 1</h3>
+                    <div class="precio"> <span>precio: </span> $0</div>
+                    <p>
+                        Stock
+                        <span class="fas fa-circle"></span> Disponible
+                    </p>
+                    <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>  
+                </div>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <div class="content">
+                    <h3>producto 2</h3>
+                    <div class="precio"> <span>precio: </span> $0</div>
+                    <p>
+                        Stock
+                        <span class="fas fa-circle"></span> Disponible
+                    </p>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <div class="content">
+                    <h3>producto 3</h3>
+                    <div class="precio"> <span>precio: </span> $0</div>
+                    <p>
+                        Stock
+                        <span class="fas fa-circle"></span> Disponible
+                    </p>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <div class="content">
+                    <h3>producto 4</h3>
+                    <div class="precio"> <span>precio: </span> $0</div>
+                    <p>
+                        Stock
+                        <span class="fas fa-circle"></span> Disponible
+                    </p>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <div class="content">
+                    <h3>producto 5</h3>
+                    <div class="precio"> <span>precio: </span> $0</div>
+                    <p>
+                        Stock
+                        <span class="fas fa-circle"></span> Disponible
+                    </p>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <div class="content">
+                    <h3>producto 6</h3>
+                    <div class="precio"> <span>precio: </span> $0</div>
+                    <p>
+                        Stock
+                        <span class="fas fa-circle"></span> Disponible
+                    </p>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+<section class="modelos" id="modelos">
+
+    <h2 class="heading"> Todos los Articulos </h2>
+
+    <div class="swiper mySwiper modelos-slider" id="lista-producto">
+        <h3 class="heading">Articulo 1</h3>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide caja">
+                <div class="imagen_producto">
+                    <img src="./img/no-disponible.jpg" alt="">
+                </div>
+                <div class="nombre_producto">
+                    <h3>Producto 1</h3>
+                </div>
+                <div class="precio">$0</div>
+                <div class="agregar_producto">
+                <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide caja">
+                <div class="nombre_producto">
+                    <img src="./img/no-disponible.jpg" alt="">
+                </div>
+                <h3>Producto 2</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <div class="nombre_producto">
+                    <img src="./img/no-disponible.jpg" alt="">
+                </div>
+                <h3>Producto 3</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <div class="nombre_producto">
+                    <img src="./img/no-disponible.jpg" alt="">
+                </div>
+                <h3>Producto 4</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <div class="nombre_producto">
+                <img src="./img/no-disponible.jpg" alt="">
+                </div>
+                <h3>Producto 5</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>Producto 6</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn input agregar-carrito" data-id="1">Agregar</a>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="swiper mySwiper modelos-slider">
+        <h3 class="heading">Articulo 2</h3>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>producto 1</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn">Verificar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>producto 2</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn">Verificar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>producto 3</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn">Verificar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>producto 4</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn">Verificar</a>
+            </div>
+
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>producto 5</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn">Verificar</a>
+            </div>
+            <div class="swiper-slide caja">
+                <img src="./img/no-disponible.jpg" alt="">
+                <h3>producto 6</h3>
+                <div class="precio">$0</div>
+                <a href="#" class="btn">Verificar</a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    
+        <div class="swiper mySwiper modelos-slider">
+            <h3 class="heading">Articulo 3</h3>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide caja">
+                    <img src="./img/no-disponible.jpg" alt="">
+                    <h3>producto 1</h3>
+                    <div class="precio">$0</div>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+    
+                <div class="swiper-slide caja">
+                    <img src="./img/no-disponible.jpg" alt="">
+                    <h3>producto 2</h3>
+                    <div class="precio">$0</div>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+    
+                <div class="swiper-slide caja">
+                    <img src="./img/no-disponible.jpg" alt="">
+                    <h3>producto 3</h3>
+                    <div class="precio">$0</div>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+    
+                <div class="swiper-slide caja">
+                    <img src="./img/no-disponible.jpg" alt="">
+                    <h3>producto 4</h3>
+                    <div class="precio">$0</div>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+    
+                <div class="swiper-slide caja">
+                    <img src="./img/no-disponible.jpg" alt="">
+                    <h3>producto 5</h3>
+                    <div class="precio">$0</div>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+
+                <div class="swiper-slide caja">
+                    <img src="./img/no-disponible.jpg" alt="">
+                    <h3>producto 6</h3>
+                    <div class="precio">$0</div>
+                    <a href="#" class="btn">Verificar</a>
+                </div>
+        </div>
+    <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="opiniones" id="opiniones">
+    <h2 class="heading">Opiniones de clientes</h2>
+
+    <div class="swiper opiniones-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-1.png" alt="">
+                    <div class="usuario-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-2.png" alt="">
+                    <div class="usuario-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-3.png" alt="">
+                    <div class="usuario-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-4.png" alt="">
+                    <div class="usuario-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-5.png" alt="">
+                    <div class="usuario-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="usuario">
+                    <img src="img/pic-6.png" alt="">
+                    <div class="usuario-info">
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<section class="contactos" id="contactos">
+
+    <h2 class="heading"> Contactanos </h2>
+
+        <form action="">
+            <h3>Ponerse en contacto</h3>
+            <input type="text" placeholder="Escribe tu nombre" class="box">
+            <input type="email" placeholder="Escribe tu correo electronico" class="box">
+            <input type="tel" placeholder="tema" class="box">
+            <textarea placeholder="tu mensaje" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="enviar mensaje" class="btn">
+        </form>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Sucursales</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Recoleta </a>   
+        </div>
+
+        <div class="box">
+            <h3>enlaces rápidos</h3>
+            <a href="#inicio"> <i class="fas fa-arrow-right"></i> inicio </a>
+            <a href="#vehiculos"> <i class="fas fa-arrow-right"></i> Ofertas </a>
+            <a href="#modelos"> <i class="fas fa-arrow-right"></i> Articulos </a>
+            <a href="#opiniones"> <i class="fas fa-arrow-right"></i> opiniones </a>
+            <a href="#contactos"> <i class="fas fa-arrow-right"></i> contacto </a>
+        </div>
+
+        <div class="box">
+            <h3>informacion de contacto</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +562222222 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +569 22222222 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> xxxxxxxx@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Santiago, Chile </a>
+        </div>
+
+        <div class="box">
+            <h3>Nuestras redes sociales</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+        });
+        
+    </script>
+</body>
+</html>
